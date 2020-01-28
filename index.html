@@ -15,9 +15,10 @@
 </head>
 
 <body data-spy = "scroll" data-target="#main-nav" id="home">
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id = "main-nav">
+  <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top" id = "main-nav">
     <div class="container">
-        <a href="/" class="navbar-brand">Buddy Karoon</a>
+        <a href="/" class="navbar-brand">
+          <img src="img/logo.png" alt="Shut" class="img-fluid" style = "max-width: 40px;"></a>
         <button class="navbar-toggler" data-toggle="collapse" data-target = "#navbarCollapse">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -41,10 +42,12 @@
   </nav>
  
   <!--Explore Head-->
-  <section id="explore-head-section">
+  <section id="explore-head-section"  >
     <div class="container">
-      <div class="row">
-        <div class="col text-center py-5 my-5">
+      <div class="row" style="height:250px;" >
+      </div>
+      <div class="row" >
+        <div class="col text-center py-5 my-5" > 
           <h1 class="display-4">Hello! I am Buddy.</h1>
           <p class="lead">I build applications.</p>
           <a href="" class="btn btn-outline-secondary">Find out more</a>
@@ -54,15 +57,15 @@
 
   </section>
   <!--Explore Section-->
-  <section id="explore-section" class = "bg-light text-muted py-5">
+  <section id="explore-section" class = "bg-dark text-light py-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-2">
+        <div class="col-md-6">
           <img src="img/photo.jpg" alt="Shut" class="img-fluid mb-3 rounded-circle">
         </div>
-        <div class="col-md-10 ">
+        <div class="col-md-6 ">
           <div class="">
-            <h3>Chawanwit Karoonyavanich (or just Buddy)</h3>
+            <h3>About me</h3>
             <p>I develop applications.</p>
             <div class="d-flex">
               <div class="p-4 align-self-start">
@@ -91,11 +94,11 @@
 
 
    <!--Create Head-->
-   <section id="create-head-section" class = " bg-primary">
+   <section id="create-head-section" class = " bg-dark text-light">
     <div class="container ">
       <div class="row">
         <div class="col text-center py-5">
-          <h1 class="display-4">Create</h1>
+          <h1 class="display-4">Portfolio</h1>
           <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet nostrum illum amet maxime id expedita neque velit laboriosam praesentium alias.</p>
           <a href="" class="btn btn-outline-light">Find out more</a>
         </div>
@@ -106,31 +109,32 @@
   <!--Create Section-->
   <section id="create-section" class = "py-5">
     <div class="container">
-      <div class="row">
-        <div class="col-md-6 order-2">
-          <img src="img/create-section1.jpg" alt="Shut" class="img-fluid mb-3 rounded-circle">
-        </div>
-        <div class="col-md-6 order-1">
-          <div class="">
-            <h3>Create your Passion</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos tenetur a distinctio suscipit quis laudantium voluptate beatae placeat asperiores porro.</p>
-            <div class="d-flex">
-              <div class="p-4 align-self-start">
-                <i class="fas fa-check fa-2x"></i>
-              </div>
-              <div class="p-4 align-self-start">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam recusandae assumenda temporibus perferendis, officia id!
-              </div>
-            </div>
-            <div class="d-flex">
-              <div class="p-4 align-self-start">
-                <i class="fas fa-check fa-2x"></i>
-              </div>
-              <div class="p-4 align-self-start">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam recusandae assumenda temporibus perferendis, officia id!
-              </div>
-            </div>
+      <div class="row text-center">
+        <div class="card m-3" style="width: 20rem;">
+          <img class="card-img-top" src="img/keepr.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Keepr</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Git Repository</a>
           </div>
+        </div>
+        <div class="card m-3" style="width: 20rem;">
+          <img class="card-img-top img-fluid mb-3 rounded-circle" src="img/pac.PNG " alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Attack of the Pac</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Git</a>
+            <a href="#" class="btn btn-primary">Youtube Video</a>
+          </div>
+        </div>
+        <div class="card m-3" style="width: 20rem;">
+          <img class="card-img-top" src="img/create-section1.jpg " alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
      </div>
       </div>
     </div>

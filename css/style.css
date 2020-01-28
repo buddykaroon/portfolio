@@ -1,0 +1,13 @@
+ 
+
+#explore-head-section { 
+    color:white;
+    height: 700px; background-attachment: fixed; 
+    background: url("../img/giphy.webp") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.card {border: none; }
