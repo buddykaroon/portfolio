@@ -9,6 +9,9 @@
 .btn-dark:hover {
     background: gray;
 }
+a:hover {
+    color: gray;
+}
 a { color: inherit; } 
 .background-gif { 
     color:white;
