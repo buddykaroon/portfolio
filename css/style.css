@@ -1,6 +1,13 @@
- 
+.dark-overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    min-height:700px;
+    background: rgba(0,0,0,0.75);
+}
 
-#explore-head-section { 
+.background-gif { 
     color:white;
     height: 700px; background-attachment: fixed; 
     background: url("../img/giphy.webp") no-repeat center center fixed;
@@ -11,3 +18,8 @@
   }
 
 .card {border: none; }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}

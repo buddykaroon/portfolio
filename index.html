@@ -23,10 +23,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id = "navbarCollapse">
-          <ul class="navbar-nav ml-auto"> 
-          <li class="nav-item">
-            <a href="#home" class="nav-link">Home</a>
-          </li>
+          <ul class="navbar-nav ml-auto">  
           <li class="nav-item">
             <a href="#explore-head-section" class="nav-link">About</a>
           </li>
@@ -42,19 +39,22 @@
   </nav>
  
   <!--Explore Head-->
-  <section id="explore-head-section"  >
-    <div class="container">
-      <div class="row" style="height:250px;" >
+    <section id="explore-head-section" class = "background-gif">
+      <div class="container">
+        
       </div>
-      <div class="row" >
-        <div class="col text-center py-5 my-5" > 
-          <h1 class="display-4">Hello! I am Buddy.</h1>
-          <p class="lead">I build applications.</p>
-          <a href="" class="btn btn-outline-secondary">Find out more</a>
-        </div>
-      </div>
-    </div>
 
+    <div class="dark-overlay"> 
+  </div>
+  <div class="row" style="height:250px;" >
+  </div>
+  <div class="row" >
+    <div class="col text-center py-5 my-5" > 
+      <h1 class="display-4">Hello! I am Buddy.</h1>
+      <p class="lead">I build applications.</p>
+      <a href="" class="btn btn-outline-secondary">Find out more</a>
+    </div>
+  </div>
   </section>
   <!--Explore Section-->
   <section id="explore-section" class = "bg-dark text-light py-5">
@@ -65,25 +65,44 @@
         </div>
         <div class="col-md-6 ">
           <div class="">
-            <h3>About me</h3>
-            <p>I develop applications.</p>
+            <h1>About me</h1>
+            <p><i> I develop applications. </i></p>
             <div class="d-flex">
               <div class="p-4 align-self-start">
-                <i class="fas fa-check fa-2x"></i>
-                <i class="fas fa-check fa-2x"></i>
-                <i class="fas fa-check fa-2x"></i>
+                <i class="fas fa-angle-double-right fa-4x"></i>
               </div>
               <div class="p-4 align-self-start">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam recusandae assumenda temporibus perferendis, officia id!
-              </div>
+                Experience in programming in teams, and teaching in a professional environment. Highly cooperative, and eager to improve.              </div>
             </div>
             <div class="d-flex">
               <div class="p-4 align-self-start">
-                <i class="fas fa-check fa-2x"></i>
+                <i class="fas fa-angle-double-right fa-4x"></i>
               </div>
               <div class="p-4 align-self-start">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam recusandae assumenda temporibus perferendis, officia id!
+                B Sc. Computing and Software Systems Major, at the University of Melbourne.
+                </div>
+            </div>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-angle-double-right fa-4x"></i>
               </div>
+              <div class="p-4 align-self-start">
+                Fluent in English, and interested in computer science and software development.
+                </div>
+            </div>
+            <div class="d-flex " >
+              <div class=" align-self-start">  
+              </div> 
+              <a href="/resume.pdf" download class="btn btn-light" style = "width:1000px">
+                <div class="row p-2">
+                  <div class="col ">
+
+                    <i class="far fa-file-pdf fa-4x "></i> 
+                  </div>
+                </div>
+                Download Resume</a>
+              <div class="">
+              </div> 
             </div>
           </div>
      </div>
@@ -97,10 +116,11 @@
    <section id="create-head-section" class = " bg-dark text-light">
     <div class="container ">
       <div class="row">
-        <div class="col text-center py-5">
-          <h1 class="display-4">Portfolio</h1>
-          <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet nostrum illum amet maxime id expedita neque velit laboriosam praesentium alias.</p>
-          <a href="" class="btn btn-outline-light">Find out more</a>
+        <div class="col text-center pt-2">
+          <h1 class="display-4 py-1">Portfolio</h1>
+          <p class="lead">
+            Some of the bigger projects I worked on in the past!  
+          </p> 
         </div>
       </div>
     </div>
@@ -108,8 +128,10 @@
   </section>
   <!--Create Section-->
   <section id="create-section" class = "py-5">
-    <div class="container">
-      <div class="row text-center">
+    <div class="container ">
+      <div class="row text-center ">    
+        <!--Keepr-->
+        <div class="col text-center ml-5" > 
         <div class="card m-3" style="width: 20rem;">
           <img class="card-img-top" src="img/keepr.png" alt="Card image cap">
           <div class="card-body">
@@ -118,7 +140,10 @@
             <a href="#" class="btn btn-primary">Git Repository</a>
           </div>
         </div>
-        <div class="card m-3" style="width: 20rem;">
+        </div>
+        
+        <div class="col text-center ml-5" > 
+        <div class="card m-3 " style="width: 20rem;">
           <img class="card-img-top img-fluid mb-3 rounded-circle" src="img/pac.PNG " alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Attack of the Pac</h5>
@@ -126,15 +151,9 @@
             <a href="#" class="btn btn-primary">Git</a>
             <a href="#" class="btn btn-primary">Youtube Video</a>
           </div>
+        </div> 
         </div>
-        <div class="card m-3" style="width: 20rem;">
-          <img class="card-img-top" src="img/create-section1.jpg " alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
+
      </div>
       </div>
     </div>
@@ -142,73 +161,24 @@
 
 
      <!--Share Head-->
-     <section id="share-head-section" class = " bg-primary">
+     <section id="share-head-section" class = " bg-dark text-light">
       <div class="container ">
         <div class="row">
           <div class="col text-center py-5">
-            <h1 class="display-4">Share</h1>
-            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet nostrum illum amet maxime id expedita neque velit laboriosam praesentium alias.</p>
-            <a href="" class="btn btn-outline-light">Find out more</a>
+            <p class="lead">Check out these links</p>
+            <p class="lead">____________________________</p>
+            
+          
+          <a href="" ><i class="fab fa-linkedin fa-4x mx-3"></i></a> 
+          <a href="" ><i class="fab fa-github fa-4x mx-3" ></i></a>  
+          <a href="" ><i class="fab fa-facebook fa-4x mx-3"></i></a>
           </div>
         </div>
       </div>
   
     </section>
-    <!--Share Section-->
-    <section id="share-section" class = "py-5 text-muted bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 order-2">
-            <img src="img/share-section1.jpg" alt="Shut" class="img-fluid mb-3 rounded-circle">
-          </div>
-          <div class="col-md-6 order-1">
-            <div class="">
-              <h3>Create your Passion</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos tenetur a distinctio suscipit quis laudantium voluptate beatae placeat asperiores porro.</p>
-              <div class="d-flex">
-                <div class="p-4 align-self-start">
-                  <i class="fas fa-check fa-2x"></i>
-                </div>
-                <div class="p-4 align-self-start">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam recusandae assumenda temporibus perferendis, officia id!
-                </div>
-              </div>
-              <div class="d-flex">
-                <div class="p-4 align-self-start">
-                  <i class="fas fa-check fa-2x"></i>
-                </div>
-                <div class="p-4 align-self-start">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam recusandae assumenda temporibus perferendis, officia id!
-                </div>
-              </div>
-            </div>
-       </div>
-        </div>
-      </div>
-    </section>
-    <!-- Footer -->
-    <footer id="main-footer" class="bg-dark">
-      <div class="container">
-        <div class="row">
-          <div class="col text-center py-4">
-            <h3>LoopLab</h3>
-            <p>Copyright &copy; <span id = "year"></span></p> 
-            <button class="btn btn-primary" data-toggle="modal" data-target = "#contactModal"> Contact Us</button>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <div class="modal fade text-dark" id="contactModal">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Contact us</h5>
-            <button class="close" data-dismiss = "normal"> </button>
-          </div>
-        </div>
-      </div>
-    </div>
+  
+ 
   <!--#-->
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
@@ -217,9 +187,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
 
-  <script>
-    // Get the current year for the copyright
-    $('#year').text(new Date().getFullYear());
+  <script> 
     //Init Scroll Spy
     $('body').scrollspy({target:'#main-nav'});
     //Scroll SPy Code
